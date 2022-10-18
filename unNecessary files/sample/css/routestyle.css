@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+.select
+{
+	position:relative;
+	margin-top:30px;
+	margin-left:500px;
+	font-style:bold;
+	font-size:25px;
+	
+}
+
+form	
+{	
+	border:1px solid #cccccc;
+	border-radius:50px;
+	box-shadow:5px 10px 8px 10px #cccccc;
+	margin-left:200px;
+	margin-right:200px;
+	margin-top:100px;
+}
+
+form p{	
+	font-size:150%;
+	margin-left:42%;
+}
+#mySelect{
+    width: 30%; 
+    padding: 5px 15px; 
+    margin-top:1%;
+    margin-left: 35%;
+    display: inline-block; 
+    box-sizing: border-box;
+    border: 0px;
+    font-family:"Poppins";
+    font-size:20px;
+    font-weight:400;
+ 	background-color: #d9d9d9;
+  	border-radius: 55px;
+  	line-height: 1.5;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #333;
+  
+  /*	position: relative;*/
+}
+.options
+{
+	margin-left:250px;
+	
+}
+.btn {
+  width: 150px;
+  background-color: #5995fd;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left:75%;
+  margin-bottom:5%;
+}
+.btn:hover {
+  background-color: #4d84e2;
+}
+.image{	
+	margin-left:30px;
+	margin-right:30px;
+	margin-top:2%;
+	width:25px;
+	height:25px;
+}
+.customer{
+	margin-left:250px;
+	}
+.customer p{
+	margin-left:80px;
+	font-size:20px;
+}
+.customer label
+{
+	margin-left:40px;
+}
+.customer input{	
+	padding:5px 10px;
+	width:10%;
+	background:#d9d9d9;
+	font-family:"Poppins";
+}		
+
+#mySelect2{
+    width: 20%;
+    padding: 5px 15px; 
+    margin-top: 1%;
+    display: inline-block; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+    
+}
+#mySelect3{
+    width: 20%;
+    padding: 5px 15px;
+    display: inline-block; 
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #d9d9d9;
+}
+#btn{
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 150px;
+    padding: 13px 25px;
+    border: 1px solid aqua;
+    background-color: #cccccc;
+    float:right;
+}
+#demo{
+    font-size: 10%;   
+}
+select
+{
+	font-family:"Poppins";
+}
+body{
+	font-family:"Poppins", sans-serif;
+}
+

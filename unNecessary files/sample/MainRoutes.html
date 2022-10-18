@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/routestyle.css">
+    <script src="./js/jsFile.js"></script>
+    
+</head>
+<body background-image="bg.jpg" background-repeat="no-repeat" background-size="cover">
+    <form class="form">	
+    <p class="route">Select Route </p>
+        <select id="mySelect" onchange="myFunction()">
+            <option value="" selected disabled>Select Route</option>
+            <option value="Kadapa-Pulivendula">Kadapa-Pulivendula</option>
+            <option value="Kadapa-Rayachoty">Kadapa-Rayachoty</option>
+            <option value="Kadapa-Kurnool">Kadapa-Kurnool</option>
+        </select>
+        <div class="options">
+        From:
+        <select name="" id="mySelect2">
+
+        </select>
+        <img src="arrow.svg" class="image"/>
+        To:
+        <select name="" id="mySelect3">
+
+        </select>
+        </div>
+        <div class="customer">
+        <p >Select Number of Passengers</p>
+        <label>Adults</label>
+        <input type="number" name="adults" min="0" max="10">
+        <label>Children</label>
+        <input type="number" name="children" min="0" max="10">
+        </div>
+        <button class="btn" onclick="getSourceDest()">submit</button>
+        <p id="demo"></p>
+        <input type="text" id="TotalCost">
+        <!--<p id="TotalCost" name="TotalCost"></p>-->
+    </form>
+</body>
+</html>
